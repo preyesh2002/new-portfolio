@@ -134,7 +134,7 @@ const Hero = () => {
 						}
 						variants={itemVariants}
 						layout="position"
-						href="/portfolio/assets/Preyesh Resume Development.pdf"
+						href="/assets/Preyesh Resume Development.pdf"
 						download
 						className="inline-flex items-center gap-1 bg-[#7f2ffa] text-zinc-50 px-6 h-12 rounded-full"
 						aria-label="Download resume"

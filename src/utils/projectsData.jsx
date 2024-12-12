@@ -13,7 +13,7 @@ const iconClassName = "inline-block w-11 h-11";
 
 const projects = [
 	{
-		imgSrc: "/portfolio/images/pk.webp",
+		imgSrc: "/images/pk.webp",
 		title: "Popstack",
 		description:
 			"A music app that allows users to upvote songs, with the highest-voted song playing next.",
@@ -35,7 +35,7 @@ const projects = [
 		category: "GAME",
 	},
 	{
-		imgSrc: "/portfolio/images/1.webp",
+		imgSrc: "/images/1.webp",
 		title: " Medium Blog App",
 		description:
 			"A full-stack blog app with Zod validation, Cloudflare Workers backend.",
@@ -66,7 +66,7 @@ const projects = [
 		category: "WEB",
 	},
 	{
-		imgSrc: "/portfolio/images/Ricemill (1).webp",
+		imgSrc: "/images/Ricemill (1).webp",
 		title: "Rice mill management",
 		description:
 			"A Comprehensive and feature rich Rice-Mill management system",

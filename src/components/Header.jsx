@@ -81,7 +81,7 @@ const Header = () => {
 				<h1>
 					<a href="/" className="logo menu-btn" onClick={handleLogoClick}>
 						<img
-							src="/portfolio/images/C.P2.svg"
+							src="/images/C.P2.svg"
 							width={80}
 							height={80}
 							alt="C P Preyesh"
