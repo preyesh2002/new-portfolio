@@ -15,4 +15,4 @@ The website is built using the following technologies:
 
 You can reach me through:
 - **Email**: [preyesh2002@gmail.com](mailto:preyesh2002@gmail.com)
-- **LinkedIn**: [linkedin.com/in/preyeshcp](https://linkedin.com/in/preyeshcp)
+- **LinkedIn**: [linkedin.com/in/cppreyesh](https://linkedin.com/in/cppreyesh)
