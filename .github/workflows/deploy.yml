@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # or your default branch
+      - main  # or the default branch you're using
 
 jobs:
   deploy:
@@ -26,7 +26,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_branch: gh-pages
-          build_dir: dist  # Make sure this matches your build output directory
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN }}  # Use GitHub token for authentication
+          publish_branch: main  # The branch to which the site will be deployed
+          publish_dir: dist  # The directory containing the built files
+          user_name: 'C P Preyesh'  # Optional, set the name for commits
+          user_email: 'preyesh2002@gmail.com'  # Optional, set the email for commits
